@@ -1,5 +1,7 @@
 #!/bin/bash
 
+# $1 is the email / user you want to notify
+
 script=$(basename -- $0)
 email=$1
 dir_array=()
